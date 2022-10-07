@@ -1,9 +1,9 @@
-package hiber.dao;
+package app.dao;
 
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
-import hiber.model.Car;
+import app.model.Car;
 
 import javax.persistence.TypedQuery;
 import java.util.List;

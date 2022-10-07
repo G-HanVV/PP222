@@ -1,13 +1,12 @@
-package hiber.dao;
+package app.service;
 
-import hiber.model.Car;
+import app.model.Car;
 
 import java.util.List;
 
-
-public interface CarDao {
-
+public interface CarService {
     void add(Car car);
+
 
     List<Car> getCarList(int count);
 }

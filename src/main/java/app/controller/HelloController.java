@@ -1,4 +1,4 @@
-package web.controller;
+package app.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
@@ -9,11 +9,6 @@ import java.util.List;
 
 @Controller
 public class HelloController {
-
-	{
-
-	}
-
 	@GetMapping(value = "/")
 	public String printWelcome(ModelMap model) {
 		System.out.println("123456");
